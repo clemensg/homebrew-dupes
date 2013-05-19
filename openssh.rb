@@ -2,9 +2,9 @@ require 'formula'
 
 class Openssh < Formula
   homepage 'http://www.openssh.com/'
-  url 'http://ftp5.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-6.2p1.tar.gz'
-  version '6.2p1'
-  sha1 '8824708c617cc781b2bb29fa20bd905fd3d2a43d'
+  url 'http://ftp5.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-6.2p2.tar.gz'
+  version '6.2p2'
+  sha1 'c2b4909eba6f5ec6f9f75866c202db47f3b501ba'
 
   option 'with-brewed-openssl', 'Build with Homebrew OpenSSL instead of the system version'
 
